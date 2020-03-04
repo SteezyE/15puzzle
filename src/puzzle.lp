@@ -1,7 +1,7 @@
 % ASP 15-puzzle solving
 
 % initialization
-#const c=1.
+#const c=80.
 state(X,Y,N,0) :- cell(X,Y,N).
 
 % move generator
